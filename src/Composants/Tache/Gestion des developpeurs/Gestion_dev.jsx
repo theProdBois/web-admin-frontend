@@ -292,7 +292,7 @@ function Gestion_dev() {
               </div>
             </div>
             <div className="flex-1 overflow-y-auto p-6">
-              <div className="space-y-6">
+              <div className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Destinataire
@@ -355,11 +355,11 @@ function Gestion_dev() {
                   />
                 </div>
 
-                <div className="flex gap-3 pt-4">
+                <div className="flex gap-3 pt-2">
                   <button
                     type="button"
                     onClick={handleNotificationSubmit}
-                    className="flex-1 bg-yellow-500 text-white py-3 px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-200 flex items-center justify-center gap-2 font-medium"
+                    className="flex-1 bg-yellow-500 text-white py-1 px-4 rounded-lg hover:bg-yellow-600 transition-colors duration-200 flex items-center justify-center gap-2 font-medium"
                   >
                     <FiSend size={16} />
                     Envoyer la notification
@@ -367,7 +367,7 @@ function Gestion_dev() {
                   <button
                     type="button"
                     onClick={closeDrawer}
-                    className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors duration-200"
+                    className="px-4 py-1 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors duration-200"
                   >
                     Annuler
                   </button>
