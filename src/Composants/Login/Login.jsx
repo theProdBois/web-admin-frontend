@@ -70,12 +70,16 @@ function Login() {
                 Mot de passe oublié ?
               </a>
             </div>
-            <button
-              type="submit"
-              className="w-full bg-orange-500 text-white py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
-            >
-              <Link to="/tache" >Se connecter</Link>
-            </button>
+            <div>
+              <Link to="/tache" >
+                <button
+                  type="submit"
+                  className="w-full bg-orange-500 text-white py-2 rounded-lg font-semibold hover:bg-orange-600 transition-colors"
+                >
+                  Se connecter
+                </button>
+              </Link>
+            </div>
             <div className="flex items-center justify-center text-gray-400 text-sm mt-4">
               <FiLock className="mr-2" size={16} />
               Vos données sont sécurisées
