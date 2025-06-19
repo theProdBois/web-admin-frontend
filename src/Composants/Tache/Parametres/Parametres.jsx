@@ -17,7 +17,7 @@ function Parametres() {
     logo: null,
     logoPreview: null,
     storeName: 'Tunisi Store',
-    slogan: 'Votre boutique de confiance',
+    slogan: 'Votre Store de confiance',
     privacyUrl: 'https://example.com/privacy',
     termsUrl: 'https://example.com/terms',
     supportEmail: 'support@tunisiestore.com',
