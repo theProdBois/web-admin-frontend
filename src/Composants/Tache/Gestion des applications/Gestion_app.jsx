@@ -372,7 +372,7 @@ function Gestion_app() {
                     </div>
                   </td>
                   <td className="py-2 px-6">
-                    <span className={`px-3 py-1 rounded-full text-sm border ${getStatusColor(app.status)}`}>
+                    <span className={`px-3 py-1 rounded-full text-[13px] border ${getStatusColor(app.status)}`}>
                       {app.status}
                     </span>
                   </td>

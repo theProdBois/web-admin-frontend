@@ -28,7 +28,7 @@ function Navigation_R() {
         <div className="px-4 pb-3 border-b border-orange-400">
           <div className="flex items-center gap-3">
             <img src={Logo} className='w-8 h-8 p-1 bg-white rounded-md '/>
-            <h1 className="text-xl font-bold">Tunisi Store</h1>
+            <h1 className="text-xl font-bold">Tounsi Store</h1>
           </div>
         </div>
 
